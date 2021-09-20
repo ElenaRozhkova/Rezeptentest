@@ -1,0 +1,21 @@
+@import url("../blocks/page.css");
+@import url("../blocks/root.css");
+@import url("../blocks/header/header__title.css");
+
+@import url("../blocks/form/__search/form__search.css");
+@import url("../blocks/form/__search/form__search-title.css");
+@import url("../blocks/form/__search/form__search-submit.css");
+@import url("../blocks/form/__search/form__search-section.css");
+@import url("../blocks/form/__add-submit/form__add-submit.css");
+
+@import url("../blocks/rezept/__img/rezept__img.css");
+@import url("../blocks/rezept/__subtitle/rezept__subtitle.css");
+@import url("../blocks/rezept/__text/rezept__text.css");
+@import url("../blocks/rezept/__title/rezept__title.css");
+@import url("../blocks/rezept/__ingredients/rezept__ingredients.css");
+@import url("../blocks/rezept/rezepts.css");
+@import url("../blocks/rezept/rezept.css");
+@import url("../blocks/rezept/__hide/rezept__hide.css");
+@import url("../blocks/rezept/__search/rezepts__search.css");
+
+@import url("../blocks/form__add/form__add.css");

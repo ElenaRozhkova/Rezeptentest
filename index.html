@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./styles/index.css"> 
+    <title>Rezepte</title> 
+</head>
+<body class="root">
+    <div class ="page">
+    <header>
+       <div class ="header__logo"></div>
+       <div class ="header__title">Rezepte</div>           
+    </header>
+    <main>
+      <section class="form__search-section">
+          <form class="form__search">
+              <input type="search" class="form__search-title" placeholder="search">
+              <input type="submit" class="form__search-submit" value="search">
+          </form>
+              <input type="submit" class="form__add-submit" value="Add Rezept">
+      </section>
+
+      <section class="add">
+      <form class="form__add">
+        <label>Name</label>
+        <input type="text" class="form__rezept-title" placeholder="Rezept name">
+        <input type="url" class="form__rezept-img" placeholder="Image">
+        <textarea columns class="form__rezept-ingredients" rows="5" cols="33" placeholder="Ingredients"></textarea>
+        <textarea class="form__rezept-text"  placeholder="rezept"></textarea>
+        <input type="submit" class="form__rezept-addsubmit" value="add">
+    </form>
+    </section>
+
+      <section class="rezepte">
+          <div class="rezepts"></div>
+          <div class="rezepts__search"></div>
+        <template id="rezept">
+        <div class="rezept">
+            <div class="rezept__title"></div>
+            <div class="rezept__subtitle">
+                <img class="rezept__img"></img>
+                <div class="rezept__ingredients"></div>
+             </div>
+            <div class="rezept__text"></div>
+        </div>
+    </template>
+    </section>
+    </main>
+    <footer>
+
+    </footer>
+</div>
+
+
+<script type="module" src="index.js"></script>
+</body>
